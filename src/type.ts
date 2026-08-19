@@ -171,9 +171,7 @@ export type FullSettings =
     | RainbowColorSettings
     | BitmapPatternSettings;
 
-export type Settings =
-    | FullSettings
-    | PieLangOnlySettings
-    | RadarContribOnlySettings;
+export type Settings = FullSettings;
 
 export type SettingFile = Settings | Settings[];
+

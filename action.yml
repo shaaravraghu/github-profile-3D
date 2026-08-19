@@ -1,6 +1,6 @@
 name: GitHub-Profile-3D-Contrib
 description: Generate profile 3D Contributions
-author: yoshi389111
+author: shaaravraghu
 
 runs:
   using: 'node24'

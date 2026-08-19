@@ -8,6 +8,8 @@ on:
       - "package.json"
       - "package-lock.json"
       - "tsconfig.json"
+  schedule:
+    - cron: "15 21 * * *"
   workflow_dispatch:
 
 permissions:
